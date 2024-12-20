@@ -1,0 +1,38 @@
+/*
+1. Universe Selector
+2. Tag Selector
+3. Class Selector
+4. ID Selector
+5. Attribute Selector
+*/
+
+/* Universe Selector */
+/* *{
+    color: rebeccapurple
+}
+
+h1{
+    color: tomato
+} */
+
+// Tag Selector
+
+/* h2{
+    color: blue;
+} 
+
+ Class Selecto
+
+p{
+    color: rgb(0, 69, 46);
+}
+p.para{
+    color: brown;
+}  */
+
+/* ID Selector */
+
+/* #title {
+    color: rgb(4, 50, 255);
+} */
+

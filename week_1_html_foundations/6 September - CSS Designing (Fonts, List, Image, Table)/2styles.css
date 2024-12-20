@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header Styling */
+.heading {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Subheadings */
+.sub-heading {
+  margin: 20px 0 10px;
+  font-size: 1.8rem;
+  color: #555;
+}
+
+/* Font Styling */
+.font-example {
+  font-size: 1.1rem;
+  font-family: "Georgia", serif;
+  color: #666;
+  line-height: 1.8;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/* List Styling */
+.styled-list {
+  list-style: square;
+  margin-left: 30px;
+  padding: 10px;
+}
+
+.styled-list li {
+  font-size: 1.1rem;
+  color: #333;
+  padding: 5px 0;
+  transition: all 0.3s ease;
+}
+
+.styled-list li:hover {
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Image Styling */
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.styled-image {
+  width: 300px;
+  height: auto;
+  border: 5px solid #007bff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.styled-image:hover {
+  transform: scale(1.1);
+}
+
+/* Table Styling */
+.styled-table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.styled-table thead tr {
+  background-color: #007bff;
+  color: #fff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.styled-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #f1f1f1;
+  color: #007bff;
+}
